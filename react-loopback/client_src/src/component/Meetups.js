@@ -18,8 +18,10 @@ componentDidMount(){
  		let meetupsData = res;
    this.setState({
    	meetups: meetupsData
+   }, () => {
+   	console.log(this.state)
    })
-   console.log(this.state)
+   
  	})
 
 }
