@@ -15,6 +15,7 @@ export default class Navbar extends Component {
 				      <ul className="side-nav" id="main-menu">
 				       <li><Link to='/' ><i className="fa fa-users"></i> Meetups</Link></li>
 				       <li><Link to='/meetup/add' ><i className="fa fa-plus"></i>Add Meetups</Link></li>
+				       <li><Link to='/' ><i className="fa fa-question-circle"></i>About</Link></li>
 				      </ul>
 				    </div>
 				  </nav>
